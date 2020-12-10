@@ -1,0 +1,196 @@
+/* Desktop */
+@media (min-width: 767.98px) {
+    .jumbotron{
+        background-image: url("img/escalator1.jpg");
+        height: 500px;
+        margin-top: -60px;
+        color: white;
+        text-align: center;
+        background-attachment: fixed;
+    }
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 50px;
+        padding: 1.875rem 1 rem;
+        background: black;
+    }
+
+    .display-4{
+        margin-top: 125px;
+        color: white;
+    }
+
+    .border-bt{
+        border-bottom: orange 3px solid;
+        width: 110px;
+        height: 45px;
+    }
+
+    .gambar{
+       width: 500px;
+       height: 400px;
+    }
+
+    .section-bg{
+        text-align: center;
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    .cth-produk{
+        text-align: center;
+        border-bottom: orange 3px solid;
+        margin-bottom: 10px;
+    }
+    
+    .more{
+        text-align: end;
+        background-color: lightgrey;
+    }
+
+    .section{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: orange 3px solid;
+    }
+
+    .footer{
+        background-color: darkblue;
+        color: white;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .border-ft{
+        border-bottom: white 3px solid;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px;
+        width: 190px;
+        text-align: justify;
+
+    }
+
+    .sosmed{
+        padding-left: 15px;
+    }
+
+    body{
+        font-family: 'Raleway', cursive !important;
+    }
+
+    .btn{
+        margin-top: 10px;
+    }
+
+    .required_hidden{
+        visibility: hidden;
+        color: red;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 767.98px){
+    .jumbotron{
+        background-image: url("img/escalator1.jpg");
+        height: 500px;
+        color: white;
+        text-align: center;
+    }
+
+    .display-4{
+        margin-top: 150px;
+    }
+
+    .border-bt{
+        border-bottom: orange 3px solid;
+        width: 21%;
+        height: 45px;
+    }
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+    }
+
+    .navbar-nav {
+        text-align: right;
+        background-color: #CCC;
+        display: inline-block;
+        width: 50vw;
+        position: fixed;
+        top: 50px;
+        right: 0;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 10%;
+        padding: 1.875rem 1 rem;
+        background: black;
+    }
+
+    .navbar-toggler-icon{
+        color: white;
+    }
+
+    .gambar{
+        width: 425px;
+        height: 400px;
+     }
+
+    .section-bg{
+        text-align: center;
+        margin-top: 10px;
+        background-color: blue;
+    }
+
+    .cth-produk{
+        text-align: center;
+        border-bottom: orange 3px solid;
+    }
+    
+    .more{
+        text-align: end;
+    }
+
+    .section{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: darkblue 3px solid;
+    }
+
+    .footer{
+        background-color: darkblue;
+        color: white;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .border-ft{
+        border-bottom: white 3px solid;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px;
+        width: 190px;
+        text-align: justify;
+
+    }
+
+    body{
+        font-family: 'Raleway', cursive !important;
+        margin-left: 10px;
+    }
+
+   .fotosidiq{  
+        width: auto;
+        height: 20rem;
+   }  
+}
